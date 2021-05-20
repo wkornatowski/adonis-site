@@ -18,15 +18,18 @@ body {
   text-align: center;
 }
 
+.content-wrapper {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+}
+
 h1 {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 5em;
   letter-spacing: -0.04em;
-  position: absolute;
-  top: 45%;
-  left: 0;
-  right: 0;
 }
 
 h1:hover {
@@ -41,10 +44,6 @@ p {
   color: white;
   font-family: "Comfortaa", cursive;
   font-size: 0.8em;
-  position: absolute;
-  top: 57%;
-  left: 0;
-  right: 0;
 }
 
 .icon {
